@@ -65,7 +65,10 @@ button:hover {
 }
 
 canvas {
-  max-width: 100%;
+  width: 100%; /* Set the width to fill its container */
+  max-width: 700px; /* Example: set a maximum width */
+  height: 100%; /* Set the height equal to the width */
+  max-height: 500px; /* Example: set a maximum height */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
